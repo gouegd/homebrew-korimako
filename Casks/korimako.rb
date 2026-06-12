@@ -7,7 +7,7 @@ cask "korimako" do
   desc "Hardware media keys support for ncspot"
   homepage "https://github.com/gouegd/korimako"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "korimako.app"
 
